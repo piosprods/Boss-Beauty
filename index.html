@@ -18,23 +18,21 @@
             color: white;
             text-align: center;
             padding: 100px 20px;
-            
         }
         .card img {
             height: 200px;
             object-fit: cover;
         }
         .hover-shadow:hover {
-    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15) !important;
-         }
-         img:hover {
-    filter: drop-shadow(0px 0px 10px rgba(0, 0, 0, 0.5));
-    transition: filter 0.3s ease-in-out;
-}
-
+            box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15) !important;
+        }
+        img:hover {
+            filter: drop-shadow(0px 0px 10px rgba(0, 0, 0, 0.5));
+            transition: filter 0.3s ease-in-out;
+        }
     </style>
 </head>
-<body class="pt5">
+<body class="pt-5">
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
         <div class="container">
             <a class="navbar-brand" href="#">Boss Beauty</a>
@@ -44,9 +42,8 @@
             <div class="collapse navbar-collapse" id="navbarNav">
                 <ul class="navbar-nav ms-auto">
                     <li class="nav-item"><a class="nav-link" href="#">Home</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#">About</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#">Services</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#">Contact</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#services">Services</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
                 </ul>
             </div>
         </div>
@@ -55,19 +52,19 @@
     <div class="hero">
         <h1>Welcome to Boss Beauty</h1>
         <p>Best salon for afro hair.</p>
-        <a href="#" class="btn btn-dark">Get Started</a>
+        <a href="#services" class="btn btn-dark">Our Services</a>
     </div>
     
-    <div class="container my-5">
+    <div class="container my-5" id="services">
+        <h2 class="text-center mb-4">Our Services</h2>
         <div class="row text-center">
             <div class="col-md-4">
                 <div class="card">
-                    <img src="afro.jpg" class="card-img-top shadow-sm hover-shadow" 
- alt="Service 1" >
+                    <img src="afro.jpg" class="card-img-top shadow-sm hover-shadow" alt="Service 1">
                     <div class="card-body">
-                        <h5 class="card-title">Braiding & Plainting</h5>
+                        <h5 class="card-title">Braiding & Plaiting</h5>
                         <p class="card-text">High-quality service to meet your needs.</p>
-                        <a href="#" class="btn btn-outline-primary">Learn More</a>
+                        <a href="#contact" class="btn btn-outline-primary">Learn More</a>
                     </div>
                 </div>
             </div>
@@ -75,9 +72,9 @@
                 <div class="card">
                     <img src="nail.jpeg" class="card-img-top" alt="Service 2">
                     <div class="card-body">
-                        <h5 class="card-title">Nail and eyelash attchment</h5>
-                        <p class="card-text">Innovative solutions for modern problems.</p>
-                        <a href="#" class="btn btn-outline-primary">Learn More</a>
+                        <h5 class="card-title">Nail and Eyelash Attachment</h5>
+                        <p class="card-text">Innovative solutions for modern beauty.</p>
+                        <a href="#contact" class="btn btn-outline-primary">Learn More</a>
                     </div>
                 </div>
             </div>
@@ -85,12 +82,23 @@
                 <div class="card">
                     <img src="Pedicure.jpeg" class="card-img-top" alt="Service 3">
                     <div class="card-body">
-                        <h5 class="card-title">Pedicure and Medicure</h5>
+                        <h5 class="card-title">Pedicure and Manicure</h5>
                         <p class="card-text">Reliable and efficient services tailored to you.</p>
-                        <a href="#" class="btn btn-outline-primary">Learn More</a>
+                        <a href="#contact" class="btn btn-outline-primary">Learn More</a>
                     </div>
                 </div>
             </div>
+        </div>
+    </div>
+    
+    <div class="container my-5" id="contact">
+        <h2 class="text-center mb-4">Contact Us</h2>
+        <div class="text-center">
+            <p>Email: <a href="mailto:info@bossbeauty.com">info@bossbeauty.com</a></p>
+            <p>Follow us on:</p>
+            <a href="https://tiktok.com/@bossbeauty" target="_blank" class="btn btn-dark me-2">TikTok</a>
+            <a href="https://facebook.com/bossbeauty" target="_blank" class="btn btn-dark me-2">Facebook</a>
+            <a href="https://twitter.com/bossbeauty" target="_blank" class="btn btn-dark">Twitter</a>
         </div>
     </div>
     
